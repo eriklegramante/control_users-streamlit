@@ -3,7 +3,7 @@
 
 Projeto completo de **CRUD com autenticação, controle de permissões e painel administrativo**, desenvolvido em **Python + Streamlit + SQLite**.
 
-Este projeto foi criado com foco em **aprendizado prático**, boas práticas e portfólio profissional.
+Este projeto foi criado com foco em **aprendizado prático** e boas práticas.
 
 ---
 
