@@ -2,8 +2,10 @@ import streamlit as st
 from db.database import get_connection
 import hashlib
 
-st.session_state.get("user_role")
+from scripts.session import init_session
+init_session()
 
+st.session_state.get("user_role")
 st.title("Login")
 
 email = st.text_input("E-mail")

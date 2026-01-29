@@ -2,6 +2,9 @@ import streamlit as st
 from db.database import get_connection, create_table
 import hashlib
 
+from scripts.session import init_session
+init_session()
+
 create_table()
 
 if st.session_state.get("authenticated"):
